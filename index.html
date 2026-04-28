@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#ffd700">
-    <meta name="description" content="CineList - Sua Biblioteca de Filmes">
+    <meta name="description" content="CineList - A Sua Biblioteca de Filmes">
     <link rel="icon" type="image/png" href="/icons/icon-192.png">
     <link rel="apple-touch-icon" href="/icons/icon-192.png">
     <style>
@@ -22,10 +22,10 @@
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <div>
                 <h1 class="text-2xl font-bold tracking-tighter text-yellow-500">CineList</h1>
-                <p class="text-xs text-gray-500 uppercase tracking-widest">Minhas Recomendações</p>
+                <p class="text-xs text-gray-500 uppercase tracking-widest">As Minhas Recomendações</p>
             </div>
             <div id="movie-count" class="text-sm text-gray-400 bg-gray-900 px-3 py-1 rounded-full border border-gray-800">
-                Carregando...
+                A carregar...
             </div>
         </div>
     </header>
@@ -33,13 +33,13 @@
     <main class="max-w-6xl mx-auto p-4 md:p-8">
         <div id="movie-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <div class="col-span-full text-center py-20 animate-pulse text-gray-600">
-                Buscando filmes na base de dados...
+                A procurar filmes na base de dados...
             </div>
         </div>
     </main>
 
     <script>
-        // Dados de fallback para funcionar no ambiente de preview do chat
+        // Dados de fallback para funcionar no ambiente de preview do chat (caso o fetch falhe)
         const fallbackMovies = [];
 
         async function loadMovies() {
@@ -50,7 +50,7 @@
             
             try {
                 try {
-                    // Tenta buscar o arquivo JSON que você gerou (funciona no GitHub)
+                    // Tenta ir buscar o ficheiro JSON (funciona no GitHub)
                     const response = await fetch('filmes.json');
                     
                     if (!response.ok) {
@@ -60,45 +60,51 @@
                     movies = await response.json();
                     
                     if (!Array.isArray(movies)) {
-                        throw new Error('O arquivo JSON não contém um array válido');
+                        throw new Error('O ficheiro JSON não contém um array válido');
                     }
                 } catch (fetchError) {
-                    // Fallback se falhar (ex: rodando no preview sem o arquivo na mesma pasta)
-                    console.warn('Erro ao carregar o JSON. Utilizando dados locais.', fetchError.message);
+                    // Fallback se falhar (ex: a correr no preview sem o ficheiro na mesma pasta)
+                    console.warn('Erro ao carregar o JSON. A utilizar dados locais.', fetchError.message);
                     movies = fallbackMovies;
                 }
                 
-                grid.innerHTML = ''; // Limpa o loading
+                grid.innerHTML = ''; // Limpa o estado de carregamento
                 countBadge.innerText = `${movies.length} Filmes`;
 
                 movies.forEach(movie => {
-                    // Validações para evitar erros - compatível com nova estrutura
                     const titulo = movie.titulo || 'Título Desconhecido';
                     const titulo_original = movie.titulo_original || '';
                     const ano = movie.ano || 'Ano Desconhecido';
-                    const diretor = movie.diretor || 'Não informado'; // Resgata o diretor
+                    const diretor = movie.diretor || 'Não informado';
                     const sinopse = movie.sinopse || movie.sinopse_curta || 'Sinopse não disponível';
-                    const capa = movie.capa || 'https://via.placeholder.com/500x750?text=Sem+Capa';
                     
-                    // Pega o array de gêneros
+                    // --- CORREÇÃO DA IMAGEM ---
+                    // Se houver uma capa, usamos um proxy (wsrv.nl) para contornar o bloqueio (403 Forbidden) da Wikipedia
+                    const capaOriginal = movie.capa || '';
+                    let capaUrl = 'https://placehold.co/500x750/111827/fbbf24?text=Sem+Capa'; // Placeholder escuro e amarelo
+                    
+                    if (capaOriginal) {
+                        // O proxy transforma a imagem e impede que a Wikipedia bloqueie o pedido
+                        capaUrl = `https://wsrv.nl/?url=${encodeURIComponent(capaOriginal)}&w=500&output=webp`;
+                    }
+                    
                     const generoArray = movie.genero || [];
                     const generoList = Array.isArray(generoArray) 
-                        ? generoArray.slice(0, 3)  // Limita a 3 gêneros
+                        ? generoArray.slice(0, 3)
                         : (typeof generoArray === 'string' ? [generoArray] : []);
 
-                    // Pega atores principais
                     const atoresArray = movie.atores_principais || [];
                     const atoresList = Array.isArray(atoresArray) 
-                        ? atoresArray.slice(0, 2).join(', ')  // Primeiros 2 atores
+                        ? atoresArray.slice(0, 2).join(', ')
                         : (typeof atoresArray === 'string' ? atoresArray : 'Atores não disponíveis');
 
                     grid.innerHTML += `
                         <div class="movie-card bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 shadow-xl flex flex-col h-full hover:border-yellow-500/50 transition-colors">
                             <div class="relative group">
-                                <img src="${capa}" 
+                                <img src="${capaUrl}" 
                                      alt="${titulo}" 
                                      class="w-full h-80 object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-500"
-                                     onerror="this.src='https://via.placeholder.com/500x750?text=Erro+Capa'">
+                                     onerror="this.src='https://placehold.co/500x750/111827/ef4444?text=Erro+Capa'">
                                 <div class="absolute top-2 right-2">
                                     <span class="bg-black/60 backdrop-blur-md text-yellow-500 text-[10px] font-bold px-2 py-1 rounded-lg border border-yellow-500/30">
                                         ${ano}
@@ -121,16 +127,13 @@
                                 <p class="text-gray-500 text-xs mb-2 italic">${titulo_original}</p>
                                 ` : ''}
                                 
-                                <!-- Exibindo o nome do Diretor aqui -->
-                                <p class="text-gray-600 text-xs mb-1 line-clamp-1">Direção: <span class="text-gray-300">${diretor}</span></p>
+                                <p class="text-gray-600 text-xs mb-1 line-clamp-1">Diretor: <span class="text-gray-300">${diretor}</span></p>
                                 
                                 <p class="text-gray-600 text-xs mb-3 line-clamp-1">Com: <span class="text-gray-300">${atoresList}</span></p>
                                 
                                 <p class="text-gray-400 text-sm line-clamp-3 mb-4 flex-grow leading-relaxed">
                                     ${sinopse}
                                 </p>
-                                
-                                <!-- O Botão de Detalhes foi totalmente removido desta área -->
                             </div>
                         </div>
                     `;
@@ -146,7 +149,6 @@
             }
         }
 
-        // Carrega os filmes quando o DOM está pronto
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', loadMovies);
         } else {
@@ -154,15 +156,14 @@
         }
     </script>
 
-    <!-- Service Worker Registration -->
+    <!-- Registo do Service Worker -->
     <script>
-        // Condição adicionada para evitar erro de protocolo no ambiente de preview
         if ('serviceWorker' in navigator && (window.location.protocol === 'http:' || window.location.protocol === 'https:')) {
             navigator.serviceWorker.register('/sw.js')
-                .then(registration => console.log('✅ Service Worker registrado:', registration))
-                .catch(error => console.error('❌ Erro ao registrar Service Worker:', error));
+                .then(registration => console.log('✅ Service Worker registado:', registration))
+                .catch(error => console.error('❌ Erro ao registar Service Worker:', error));
         } else {
-            console.log('⚠️ Service Worker ignorado: protocolo atual não suportado (ex: preview mode).');
+            console.log('⚠️ Service Worker ignorado: protocolo atual não suportado (ex: modo preview).');
         }
     </script>
 </body>
