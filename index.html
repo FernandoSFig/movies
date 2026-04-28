@@ -61,23 +61,27 @@
                 countBadge.innerText = `${movies.length} Filmes`;
 
                 movies.forEach(movie => {
-                    // Validações para evitar erros
+                    // Validações para evitar erros - compatível com nova estrutura
                     const titulo = movie.titulo || 'Título Desconhecido';
-                    const diretor = movie.diretor || 'Diretor Desconhecido';
+                    const titulo_original = movie.titulo_original || '';
                     const ano = movie.ano || 'Ano Desconhecido';
-                    const sinopse = movie.sinopse_curta || movie.sinopse || 'Sinopse não disponível';
+                    const sinopse = movie.sinopse || movie.sinopse_curta || 'Sinopse não disponível';
                     const capa = movie.capa || 'https://via.placeholder.com/500x750?text=Sem+Capa';
                     
-                    // Pega streaming/onde_assistir - funciona com ambos os nomes
-                    const streamingArray = movie.onde_assistir || movie.streaming || [];
-                    
-                    // Verifica se é um array, caso contrário trata como string
-                    const streamingList = Array.isArray(streamingArray) 
-                        ? streamingArray 
-                        : (typeof streamingArray === 'string' ? [streamingArray] : []);
+                    // Pega o array de gêneros
+                    const generoArray = movie.genero || [];
+                    const generoList = Array.isArray(generoArray) 
+                        ? generoArray.slice(0, 3)  // Limita a 3 gêneros
+                        : (typeof generoArray === 'string' ? [generoArray] : []);
+
+                    // Pega atores principais
+                    const atoresArray = movie.atores_principais || [];
+                    const atoresList = Array.isArray(atoresArray) 
+                        ? atoresArray.slice(0, 2).join(', ')  // Primeiros 2 atores
+                        : (typeof atoresArray === 'string' ? atoresArray : 'Atores não disponíveis');
 
                     grid.innerHTML += `
-                        <div class="movie-card bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 shadow-xl flex flex-col h-full">
+                        <div class="movie-card bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 shadow-xl flex flex-col h-full hover:border-yellow-500/50 transition-colors">
                             <div class="relative group">
                                 <img src="${capa}" 
                                      alt="${titulo}" 
@@ -88,28 +92,32 @@
                                         ${ano}
                                     </span>
                                 </div>
+                                ${generoList.length > 0 ? `
+                                <div class="absolute bottom-2 left-2 flex flex-wrap gap-1">
+                                    ${generoList.map(g => `
+                                        <span class="text-[9px] bg-yellow-500/20 text-yellow-300 px-1.5 py-0.5 rounded border border-yellow-500/40">
+                                            ${g}
+                                        </span>
+                                    `).join('')}
+                                </div>
+                                ` : ''}
                             </div>
 
                             <div class="p-5 flex flex-col flex-grow">
-                                <h2 class="text-lg font-bold leading-tight mb-1 group-hover:text-yellow-500 transition-colors">${titulo}</h2>
-                                <p class="text-gray-500 text-xs mb-3 italic">Dir: ${diretor}</p>
+                                <h2 class="text-lg font-bold leading-tight mb-1 group-hover:text-yellow-500 transition-colors line-clamp-2">${titulo}</h2>
+                                ${titulo_original ? `
+                                <p class="text-gray-500 text-xs mb-2 italic">${titulo_original}</p>
+                                ` : ''}
+                                <p class="text-gray-600 text-xs mb-3 line-clamp-1">Com: ${atoresList}</p>
                                 
-                                <p class="text-gray-400 text-sm line-clamp-3 mb-4 flex-grow">
+                                <p class="text-gray-400 text-sm line-clamp-3 mb-4 flex-grow leading-relaxed">
                                     ${sinopse}
                                 </p>
 
                                 <div class="mt-auto pt-4 border-t border-gray-800">
-                                    <p class="text-[10px] text-gray-500 uppercase mb-2 font-semibold tracking-wider text-center">Disponível em</p>
-                                    <div class="flex flex-wrap gap-1 justify-center">
-                                        ${streamingList.length > 0 
-                                            ? streamingList.map(s => `
-                                                <span class="text-[9px] bg-gray-800 text-gray-300 px-2 py-1 rounded border border-gray-700">
-                                                    ${s}
-                                                </span>
-                                            `).join('')
-                                            : '<span class="text-[9px] text-gray-600 italic">Não disponível</span>'
-                                        }
-                                    </div>
+                                    <button class="w-full py-2 px-3 bg-yellow-500/10 hover:bg-yellow-500/20 text-yellow-400 rounded-lg border border-yellow-500/30 hover:border-yellow-500 transition-all text-sm font-medium">
+                                        Ver Detalhes
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +127,7 @@
                 console.error('Erro ao carregar filmes:', error);
                 grid.innerHTML = `
                     <div class="col-span-full text-center py-20">
-                        <p class="text-red-500 mb-4">❌ Erro ao carregar filmes</p>
+                        <p class="text-red-500 mb-4 text-lg">❌ Erro ao carregar filmes</p>
                         <p class="text-gray-400 text-sm">Verifique se o arquivo <strong>filmes.json</strong> está na mesma pasta do index.html</p>
                         <p class="text-gray-500 text-xs mt-2">${error.message}</p>
                     </div>
