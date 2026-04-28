@@ -448,5 +448,125 @@
     "atores_principais": ["Marlon Brando", "Al Pacino", "James Caan"],
     "sinopse": "A ascensão e consolidação da poderosa família mafiosa Corleone nos Estados Unidos, marcada por lealdade, traição e violência.",
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
+  },
+  {
+    "titulo": "Patch Adams: O Amor é Contagioso",
+    "titulo_original": "Patch Adams",
+    "ano": 1998,
+    "diretor": "Tom Shadyac",
+    "genero": ["Drama", "Comédia"],
+    "atores_principais": ["Robin Williams", "Monica Potter", "Philip Seymour Hoffman"],
+    "sinopse": "Um estudante de medicina acredita que o humor e a empatia são essenciais para curar pacientes, desafiando os métodos tradicionais.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/4/48/Patch_Adams.jpg"
+  },
+  {
+    "titulo": "Escritores da Liberdade",
+    "titulo_original": "Freedom Writers",
+    "ano": 2007,
+    "diretor": "Richard LaGravenese",
+    "genero": ["Drama"],
+    "atores_principais": ["Hilary Swank", "Patrick Dempsey", "Scott Glenn"],
+    "sinopse": "Uma professora inspira seus alunos em risco a mudarem de vida através da escrita e da educação.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/2/27/Freedom_Writers_Poster.jpg"
+  },
+  {
+    "titulo": "Ponte para Terabítia",
+    "titulo_original": "Bridge to Terabithia",
+    "ano": 2007,
+    "diretor": "Gábor Csupó",
+    "genero": ["Fantasia", "Drama"],
+    "atores_principais": ["Josh Hutcherson", "AnnaSophia Robb", "Zooey Deschanel"],
+    "sinopse": "Dois jovens criam um mundo mágico imaginário para escapar das dificuldades da vida real.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/d/d5/Bridge_to_Terabithia_2007_film.jpg"
+  },
+  {
+    "titulo": "Batman: O Cavaleiro das Trevas",
+    "titulo_original": "The Dark Knight",
+    "ano": 2008,
+    "diretor": "Christopher Nolan",
+    "genero": ["Ação", "Crime"],
+    "atores_principais": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "sinopse": "Batman enfrenta o Coringa, um vilão caótico que ameaça mergulhar Gotham no caos.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg"
+  },
+  {
+    "titulo": "Deadpool",
+    "titulo_original": "Deadpool",
+    "ano": 2016,
+    "diretor": "Tim Miller",
+    "genero": ["Ação", "Comédia"],
+    "atores_principais": ["Ryan Reynolds", "Morena Baccarin", "Ed Skrein"],
+    "sinopse": "Um mercenário adquire poderes de regeneração e busca vingança com muito humor ácido.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg"
+  },
+  {
+    "titulo": "Deadpool 2",
+    "titulo_original": "Deadpool 2",
+    "ano": 2018,
+    "diretor": "David Leitch",
+    "genero": ["Ação", "Comédia"],
+    "atores_principais": ["Ryan Reynolds", "Josh Brolin", "Zazie Beetz"],
+    "sinopse": "Deadpool forma uma equipe para proteger um jovem mutante de um soldado do futuro.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/c/cf/Deadpool_2_poster.jpg"
+  },
+  {
+    "titulo": "Platoon",
+    "titulo_original": "Platoon",
+    "ano": 1986,
+    "diretor": "Oliver Stone",
+    "genero": ["Guerra", "Drama"],
+    "atores_principais": ["Charlie Sheen", "Willem Dafoe", "Tom Berenger"],
+    "sinopse": "Um jovem soldado enfrenta os horrores da Guerra do Vietnã e conflitos internos entre seus superiores.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/9/93/Platoon_poster.jpg"
+  },
+  {
+    "titulo": "O Senhor dos Anéis: As Duas Torres",
+    "titulo_original": "The Lord of the Rings: The Two Towers",
+    "ano": 2002,
+    "diretor": "Peter Jackson",
+    "genero": ["Fantasia", "Aventura"],
+    "atores_principais": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    "sinopse": "A jornada da Sociedade se divide enquanto a guerra pela Terra-média se intensifica.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/a/ad/Lord_of_the_Rings_-_The_Two_Towers.jpg"
+  },
+  {
+    "titulo": "O Senhor dos Anéis: O Retorno do Rei",
+    "titulo_original": "The Lord of the Rings: The Return of the King",
+    "ano": 2003,
+    "diretor": "Peter Jackson",
+    "genero": ["Fantasia", "Aventura"],
+    "atores_principais": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    "sinopse": "A batalha final pela Terra-média acontece enquanto Frodo se aproxima de destruir o Um Anel.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/9/9d/ReturnoftheKing.jpg"
+  },
+  {
+    "titulo": "O Hobbit: Uma Jornada Inesperada",
+    "titulo_original": "The Hobbit: An Unexpected Journey",
+    "ano": 2012,
+    "diretor": "Peter Jackson",
+    "genero": ["Fantasia", "Aventura"],
+    "atores_principais": ["Martin Freeman", "Ian McKellen", "Richard Armitage"],
+    "sinopse": "Bilbo Bolseiro embarca em uma aventura para ajudar anões a recuperar seu reino perdido.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/b/b3/The_Hobbit-_An_Unexpected_Journey.jpeg"
+  },
+  {
+    "titulo": "O Hobbit: A Desolação de Smaug",
+    "titulo_original": "The Hobbit: The Desolation of Smaug",
+    "ano": 2013,
+    "diretor": "Peter Jackson",
+    "genero": ["Fantasia", "Aventura"],
+    "atores_principais": ["Martin Freeman", "Ian McKellen", "Benedict Cumberbatch"],
+    "sinopse": "A jornada continua enquanto o grupo se aproxima da Montanha Solitária e enfrenta o dragão Smaug.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Hobbit_-_The_Desolation_of_Smaug.jpeg"
+  },
+  {
+    "titulo": "O Hobbit: A Batalha dos Cinco Exércitos",
+    "titulo_original": "The Hobbit: The Battle of the Five Armies",
+    "ano": 2014,
+    "diretor": "Peter Jackson",
+    "genero": ["Fantasia", "Aventura"],
+    "atores_principais": ["Martin Freeman", "Ian McKellen", "Richard Armitage"],
+    "sinopse": "A batalha final define o destino da Terra-média após a derrota do dragão Smaug.",
+    "capa": "https://upload.wikimedia.org/wikipedia/en/0/0d/The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg"
   }
 ]
