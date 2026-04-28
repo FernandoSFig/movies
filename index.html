@@ -39,22 +39,33 @@
     </main>
 
     <script>
+        // Dados de fallback para funcionar no ambiente de preview do chat
+        const fallbackMovies = [];
+
         async function loadMovies() {
             const grid = document.getElementById('movie-grid');
             const countBadge = document.getElementById('movie-count');
             
+            let movies = [];
+            
             try {
-                // Busca o arquivo JSON que você gerou
-                const response = await fetch('filmes.json');
-                
-                if (!response.ok) {
-                    throw new Error(`Erro HTTP: ${response.status}`);
-                }
-                
-                const movies = await response.json();
-                
-                if (!Array.isArray(movies)) {
-                    throw new Error('O arquivo JSON não contém um array válido');
+                try {
+                    // Tenta buscar o arquivo JSON que você gerou (funciona no GitHub)
+                    const response = await fetch('filmes.json');
+                    
+                    if (!response.ok) {
+                        throw new Error(`Erro HTTP: ${response.status}`);
+                    }
+                    
+                    movies = await response.json();
+                    
+                    if (!Array.isArray(movies)) {
+                        throw new Error('O arquivo JSON não contém um array válido');
+                    }
+                } catch (fetchError) {
+                    // Fallback se falhar (ex: rodando no preview sem o arquivo na mesma pasta)
+                    console.warn('Erro ao carregar o JSON. Utilizando dados locais.', fetchError.message);
+                    movies = fallbackMovies;
                 }
                 
                 grid.innerHTML = ''; // Limpa o loading
@@ -65,6 +76,7 @@
                     const titulo = movie.titulo || 'Título Desconhecido';
                     const titulo_original = movie.titulo_original || '';
                     const ano = movie.ano || 'Ano Desconhecido';
+                    const diretor = movie.diretor || 'Não informado'; // Resgata o diretor
                     const sinopse = movie.sinopse || movie.sinopse_curta || 'Sinopse não disponível';
                     const capa = movie.capa || 'https://via.placeholder.com/500x750?text=Sem+Capa';
                     
@@ -108,27 +120,26 @@
                                 ${titulo_original ? `
                                 <p class="text-gray-500 text-xs mb-2 italic">${titulo_original}</p>
                                 ` : ''}
-                                <p class="text-gray-600 text-xs mb-3 line-clamp-1">Com: ${atoresList}</p>
+                                
+                                <!-- Exibindo o nome do Diretor aqui -->
+                                <p class="text-gray-600 text-xs mb-1 line-clamp-1">Direção: <span class="text-gray-300">${diretor}</span></p>
+                                
+                                <p class="text-gray-600 text-xs mb-3 line-clamp-1">Com: <span class="text-gray-300">${atoresList}</span></p>
                                 
                                 <p class="text-gray-400 text-sm line-clamp-3 mb-4 flex-grow leading-relaxed">
                                     ${sinopse}
                                 </p>
-
-                                <div class="mt-auto pt-4 border-t border-gray-800">
-                                    <button class="w-full py-2 px-3 bg-yellow-500/10 hover:bg-yellow-500/20 text-yellow-400 rounded-lg border border-yellow-500/30 hover:border-yellow-500 transition-all text-sm font-medium">
-                                        Ver Detalhes
-                                    </button>
-                                </div>
+                                
+                                <!-- O Botão de Detalhes foi totalmente removido desta área -->
                             </div>
                         </div>
                     `;
                 });
             } catch (error) {
-                console.error('Erro ao carregar filmes:', error);
+                console.error('Erro geral na renderização:', error);
                 grid.innerHTML = `
                     <div class="col-span-full text-center py-20">
-                        <p class="text-red-500 mb-4 text-lg">❌ Erro ao carregar filmes</p>
-                        <p class="text-gray-400 text-sm">Verifique se o arquivo <strong>filmes.json</strong> está na mesma pasta do index.html</p>
+                        <p class="text-red-500 mb-4 text-lg">❌ Erro inesperado</p>
                         <p class="text-gray-500 text-xs mt-2">${error.message}</p>
                     </div>
                 `;
@@ -145,10 +156,13 @@
 
     <!-- Service Worker Registration -->
     <script>
-        if ('serviceWorker' in navigator) {
+        // Condição adicionada para evitar erro de protocolo no ambiente de preview
+        if ('serviceWorker' in navigator && (window.location.protocol === 'http:' || window.location.protocol === 'https:')) {
             navigator.serviceWorker.register('/sw.js')
                 .then(registration => console.log('✅ Service Worker registrado:', registration))
                 .catch(error => console.error('❌ Erro ao registrar Service Worker:', error));
+        } else {
+            console.log('⚠️ Service Worker ignorado: protocolo atual não suportado (ex: preview mode).');
         }
     </script>
 </body>
