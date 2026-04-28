@@ -7,6 +7,7 @@
     "genero": ["Ação", "Ficção Científica"],
     "atores_principais": ["Arnold Schwarzenegger", "Linda Hamilton", "Michael Biehn"],
     "sinopse": "Um ciborgue assassino é enviado do futuro para matar Sarah Connor, uma mulher cujo filho ainda não nascido será o líder da resistência humana contra as máquinas.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/7/70/The_Terminator_poster.jpg"
   },
   {
@@ -17,6 +18,7 @@
     "genero": ["Ação", "Ficção Científica"],
     "atores_principais": ["Arnold Schwarzenegger", "Linda Hamilton", "Edward Furlong"],
     "sinopse": "Um novo exterminador avançado é enviado do futuro para eliminar John Connor ainda jovem, mas um modelo antigo reprogramado é enviado para protegê-lo.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/8/85/Terminator2poster.jpg"
   },
   {
@@ -27,6 +29,7 @@
     "genero": ["Ação", "Ficção Científica", "Terror"],
     "atores_principais": ["Arnold Schwarzenegger", "Carl Weathers", "Jesse Ventura"],
     "sinopse": "Um grupo de soldados de elite é enviado para uma missão na selva, onde se torna alvo de uma criatura alienígena mortal que os caça um a um.",
+    "streaming": ["Netflix", "Amazon Prime", "Disney+"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/9/95/Predator_Movie.jpg"
   },
   {
@@ -37,6 +40,7 @@
     "genero": ["Ação", "Ficção Científica"],
     "atores_principais": ["Danny Glover", "Gary Busey", "Bill Paxton"],
     "sinopse": "Em uma Los Angeles dominada pelo crime, um policial enfrenta um inimigo invisível e extremamente letal: um caçador alienígena.",
+    "streaming": ["Amazon Prime", "HBO Max"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/c/c9/Predator_2_Poster.jpg"
   },
   {
@@ -47,6 +51,7 @@
     "genero": ["Ação", "Drama"],
     "atores_principais": ["Sylvester Stallone", "Richard Crenna", "Brian Dennehy"],
     "sinopse": "Um veterano do Vietnã é perseguido por policiais em uma pequena cidade, desencadeando uma guerra pessoal contra as autoridades.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/4/4a/First_blood_poster.jpg"
   },
   {
@@ -57,6 +62,7 @@
     "genero": ["Drama"],
     "atores_principais": ["Adam Sandler", "Don Cheadle", "Liv Tyler"],
     "sinopse": "Um homem devastado pela perda de sua família nos ataques de 11 de setembro reencontra um antigo amigo, iniciando um processo de recuperação emocional.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/3/3d/Reign_over_me.jpg"
   },
   {
@@ -67,6 +73,7 @@
     "genero": ["Suspense", "Ficção Científica"],
     "atores_principais": ["Mel Gibson", "Joaquin Phoenix", "Abigail Breslin"],
     "sinopse": "Uma família começa a presenciar fenômenos inexplicáveis em sua fazenda, descobrindo uma possível invasão alienígena.",
+    "streaming": ["Netflix", "Amazon Prime", "Disney+"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/a/a2/Signs_movie_poster.jpg"
   },
   {
@@ -77,6 +84,7 @@
     "genero": ["Comédia", "Romance"],
     "atores_principais": ["Mel Gibson", "Helen Hunt", "Marisa Tomei"],
     "sinopse": "Após um acidente, um publicitário passa a ouvir os pensamentos das mulheres, o que muda completamente sua vida e sua visão sobre relacionamentos.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/1b/What_women_want.jpg"
   },
   {
@@ -87,6 +95,7 @@
     "genero": ["Comédia"],
     "atores_principais": ["Graham Chapman", "John Cleese", "Terry Gilliam"],
     "sinopse": "Brian nasce no mesmo dia que Jesus e acaba sendo confundido com o Messias, gerando uma série de situações absurdas e satíricas.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/18/Lifeofbrianposter.jpg"
   },
   {
@@ -97,6 +106,7 @@
     "genero": ["Comédia", "Crime"],
     "atores_principais": ["Richard Pryor", "Gene Wilder", "Joan Severance"],
     "sinopse": "Um homem cego e um surdo acabam envolvidos em um assassinato e precisam trabalhar juntos para provar sua inocência.",
+    "streaming": ["Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/0/0b/See_no_evil_hear_no_evil.jpg"
   },
   {
@@ -107,6 +117,7 @@
     "genero": ["Comédia"],
     "atores_principais": ["Matthew Broderick", "Alan Ruck", "Mia Sara"],
     "sinopse": "Ferris Bueller decide faltar à escola e viver um dia inesquecível em Chicago ao lado de seus amigos, enganando seus pais e o diretor da escola.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/9/9b/Ferris_Bueller%27s_Day_Off.jpg"
   },
   {
@@ -117,6 +128,7 @@
     "genero": ["Drama", "Esporte"],
     "atores_principais": ["Keanu Reeves", "Diane Lane", "John Hawkes"],
     "sinopse": "Um apostador endividado aceita treinar um time de beisebol infantil em uma comunidade carente e acaba aprendendo valiosas lições de vida.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/0/0f/Hardball_poster.jpg"
   },
   {
@@ -127,6 +139,7 @@
     "genero": ["Ação", "Drama", "Histórico"],
     "atores_principais": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
     "sinopse": "Um general romano traído é reduzido à escravidão e luta como gladiador em busca de vingança contra o imperador que destruiu sua família.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_ver1.jpg"
   },
   {
@@ -137,6 +150,7 @@
     "genero": ["Suspense", "Crime"],
     "atores_principais": ["Denzel Washington", "Angelina Jolie", "Queen Latifah"],
     "sinopse": "Um detetive tetraplégico e uma policial novata unem forças para capturar um assassino em série que deixa pistas complexas em suas cenas de crime.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/3/3c/The_Bone_Collector_film.jpg"
   },
   {
@@ -147,6 +161,7 @@
     "genero": ["Comédia", "Fantasia"],
     "atores_principais": ["Tom Hanks", "Elizabeth Perkins", "Robert Loggia"],
     "sinopse": "Um garoto faz um desejo mágico e acorda no corpo de um adulto, tendo que lidar com as responsabilidades da vida adulta de forma inesperada.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/7/7c/Bigposter.jpg"
   },
   {
@@ -157,6 +172,7 @@
     "genero": ["Ação", "Ficção Científica"],
     "atores_principais": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
     "sinopse": "Um hacker descobre que a realidade é uma simulação criada por máquinas e se junta a rebeldes para libertar a humanidade.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg"
   },
   {
@@ -167,6 +183,7 @@
     "genero": ["Crime", "Drama"],
     "atores_principais": ["Kevin Costner", "Sean Connery", "Robert De Niro"],
     "sinopse": "Durante a Lei Seca, um agente federal forma um grupo para derrubar o poderoso mafioso Al Capone em Chicago.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/9/91/Untouchables.jpg"
   },
   {
@@ -177,6 +194,7 @@
     "genero": ["Fantasia", "Aventura"],
     "atores_principais": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
     "sinopse": "Um jovem hobbit recebe a missão de destruir um anel poderoso que pode decidir o destino da Terra-média.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg"
   },
   {
@@ -187,6 +205,7 @@
     "genero": ["Drama", "Crime"],
     "atores_principais": ["Sean Penn", "Tim Robbins", "Kevin Bacon"],
     "sinopse": "Três amigos de infância se reencontram após uma tragédia, trazendo à tona traumas do passado e uma investigação de assassinato.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/6/6b/Mystic_River_poster.jpg"
   },
   {
@@ -197,6 +216,7 @@
     "genero": ["Drama", "Romance"],
     "atores_principais": ["Shane West", "Mandy Moore", "Peter Coyote"],
     "sinopse": "Um jovem rebelde se apaixona por uma garota doce e religiosa, vivendo um romance que mudará sua vida para sempre.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/7/7b/A_Walk_to_Remember_Poster.jpg"
   },
   {
@@ -207,6 +227,7 @@
     "genero": ["Drama", "Crime"],
     "atores_principais": ["Kevin Bacon", "Robert De Niro", "Brad Pitt"],
     "sinopse": "Quatro amigos de infância enfrentam traumas após abusos em um reformatório e anos depois buscam vingança contra seus agressores.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/3/3f/Sleepers_film.jpg"
   },
   {
@@ -217,6 +238,7 @@
     "genero": ["Crime", "Suspense"],
     "atores_principais": ["Jake Gyllenhaal", "Mark Ruffalo", "Robert Downey Jr."],
     "sinopse": "Um cartunista se torna obcecado em descobrir a identidade do assassino do Zodíaco, enquanto jornalistas e policiais tentam capturá-lo.",
+    "streaming": ["Netflix", "Amazon Prime", "HBO Max"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/3/3b/Zodiac2007Poster.jpg"
   },
   {
@@ -227,6 +249,7 @@
     "genero": ["Suspense", "Crime"],
     "atores_principais": ["Diane Lane", "Colin Hanks", "Billy Burke"],
     "sinopse": "Uma agente do FBI persegue um assassino que transmite seus crimes ao vivo na internet, tornando cada visualização uma corrida contra o tempo.",
+    "streaming": ["Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/1c/Untraceableposter.jpg"
   },
   {
@@ -237,6 +260,7 @@
     "genero": ["Drama"],
     "atores_principais": ["Susan Sarandon", "Sean Penn", "Robert Prosky"],
     "sinopse": "Uma freira desenvolve uma relação complexa com um prisioneiro condenado à morte, confrontando questões morais e de redenção.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/3/3c/Dead_man_walking.jpg"
   },
   {
@@ -247,6 +271,7 @@
     "genero": ["Suspense", "Crime"],
     "atores_principais": ["Angelina Jolie", "Ethan Hawke", "Kiefer Sutherland"],
     "sinopse": "Uma agente do FBI investiga um assassino em série que assume a identidade de suas vítimas para evitar ser capturado.",
+    "streaming": ["Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/5/5c/Taking_lives_poster.jpg"
   },
   {
@@ -257,6 +282,7 @@
     "genero": ["Suspense", "Crime"],
     "atores_principais": ["Morgan Freeman", "Monica Potter", "Michael Wincott"],
     "sinopse": "Um detetive investiga o sequestro da filha de um senador, enfrentando um criminoso extremamente inteligente e manipulador.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/5/50/Along_Came_a_Spider.jpg"
   },
   {
@@ -267,6 +293,7 @@
     "genero": ["Drama"],
     "atores_principais": ["Edward Norton", "Edward Furlong", "Beverly D'Angelo"],
     "sinopse": "Um ex-neonazista tenta impedir que seu irmão siga o mesmo caminho de ódio e violência após sair da prisão.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/0/0a/American_history_x_poster.jpg"
   },
   {
@@ -277,6 +304,7 @@
     "genero": ["Guerra", "Drama"],
     "atores_principais": ["Ken Watanabe", "Kazunari Ninomiya", "Tsuyoshi Ihara"],
     "sinopse": "A batalha de Iwo Jima é retratada sob a perspectiva dos soldados japoneses, mostrando o lado humano da guerra.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/7/7f/Letters_from_Iwo_Jima.jpg"
   },
   {
@@ -287,6 +315,7 @@
     "genero": ["Drama", "Biografia"],
     "atores_principais": ["Russell Crowe", "Jennifer Connelly", "Ed Harris"],
     "sinopse": "A vida do matemático John Nash, que enfrenta a esquizofrenia enquanto faz contribuições revolucionárias à ciência.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg"
   },
   {
@@ -297,6 +326,7 @@
     "genero": ["Ação", "Fantasia"],
     "atores_principais": ["Arnold Schwarzenegger", "Gabriel Byrne", "Robin Tunney"],
     "sinopse": "Um ex-policial precisa impedir o próprio diabo de cumprir uma profecia que pode trazer o apocalipse à Terra.",
+    "streaming": ["Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/7/7a/End_of_days_poster.jpg"
   },
   {
@@ -307,6 +337,7 @@
     "genero": ["Suspense", "Drama"],
     "atores_principais": ["Bryce Dallas Howard", "Joaquin Phoenix", "Adrien Brody"],
     "sinopse": "Uma comunidade isolada vive sob o medo de criaturas misteriosas que habitam a floresta ao redor, mas segredos ocultos revelam uma realidade inesperada.",
+    "streaming": ["Netflix", "Amazon Prime", "Disney+"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/c/c7/The_Village_poster.jpg"
   },
   {
@@ -317,6 +348,7 @@
     "genero": ["Drama"],
     "atores_principais": ["Clint Eastwood", "Bee Vang", "Ahney Her"],
     "sinopse": "Um veterano da Guerra da Coreia, amargurado e solitário, desenvolve uma improvável amizade com seus vizinhos imigrantes.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/9/98/Gran_Torino_poster.jpg"
   },
   {
@@ -327,6 +359,7 @@
     "genero": ["Drama", "Família"],
     "atores_principais": ["Mohammad Amir Naji", "Amir Farrokh Hashemian", "Bahare Seddiqi"],
     "sinopse": "Após perder o sapato da irmã, um menino iraniano compartilha seu próprio par com ela, criando uma rotina desafiadora para esconder o problema da família.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/1c/Children_of_Heaven_poster.jpg"
   },
   {
@@ -337,6 +370,7 @@
     "genero": ["Guerra", "Drama"],
     "atores_principais": ["Ryan Phillippe", "Jesse Bradford", "Adam Beach"],
     "sinopse": "A história dos soldados americanos que levantaram a bandeira em Iwo Jima e as consequências desse ato heroico em suas vidas.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/1c/Flags_of_our_fathers.jpg"
   },
   {
@@ -347,6 +381,7 @@
     "genero": ["Drama", "Esporte"],
     "atores_principais": ["Hilary Swank", "Clint Eastwood", "Morgan Freeman"],
     "sinopse": "Uma jovem determinada convence um treinador experiente a ajudá-la a se tornar uma boxeadora profissional, formando um forte vínculo entre eles.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/1c/Million_Dollar_Baby_poster.jpg"
   },
   {
@@ -357,6 +392,7 @@
     "genero": ["Ação", "Suspense"],
     "atores_principais": ["Harrison Ford", "Willem Dafoe", "Anne Archer"],
     "sinopse": "Um analista da CIA se envolve em uma operação secreta contra cartéis de drogas colombianos, enfrentando corrupção dentro do próprio governo.",
+    "streaming": ["Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/0/02/Clear_and_present_danger.jpg"
   },
   {
@@ -367,6 +403,7 @@
     "genero": ["Ação", "Suspense"],
     "atores_principais": ["Sean Connery", "Alec Baldwin", "Scott Glenn"],
     "sinopse": "Um capitão soviético decide desertar com um submarino nuclear, provocando tensão internacional enquanto os EUA tentam entender suas intenções.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/4/4d/Huntforredoctober.jpg"
   },
   {
@@ -377,6 +414,7 @@
     "genero": ["Ação", "Suspense"],
     "atores_principais": ["Harrison Ford", "Anne Archer", "Sean Bean"],
     "sinopse": "Um ex-analista da CIA se torna alvo de um grupo terrorista após impedir um atentado em Londres.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/7/72/Patriot_Games.jpg"
   },
   {
@@ -387,6 +425,7 @@
     "genero": ["Ação", "Suspense"],
     "atores_principais": ["Ben Affleck", "Morgan Freeman", "James Cromwell"],
     "sinopse": "Um analista da CIA descobre um plano terrorista envolvendo uma arma nuclear que pode desencadear uma guerra global.",
+    "streaming": ["Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/2/2b/The_sum_of_all_fears.jpg"
   },
   {
@@ -397,6 +436,7 @@
     "genero": ["Comédia", "Drama"],
     "atores_principais": ["Robin Williams", "Forest Whitaker", "Bruno Kirby"],
     "sinopse": "Um locutor de rádio irreverente leva humor e crítica à Guerra do Vietnã, desafiando as regras militares.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/6/6f/Good_morning_vietnam.jpg"
   },
   {
@@ -407,6 +447,7 @@
     "genero": ["Ação", "Guerra"],
     "atores_principais": ["Owen Wilson", "Gene Hackman", "Gabriel Macht"],
     "sinopse": "Um piloto da Marinha dos EUA é abatido sobre território inimigo e precisa sobreviver enquanto é caçado por forças hostis.",
+    "streaming": ["Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/d/dc/Behind_enemy_lines.jpg"
   },
   {
@@ -417,6 +458,7 @@
     "genero": ["Drama", "Guerra"],
     "atores_principais": ["Denzel Washington", "Meg Ryan", "Matt Damon"],
     "sinopse": "Um oficial investiga as circunstâncias da morte de uma piloto de helicóptero durante a Guerra do Golfo para decidir se ela merece uma medalha de honra.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/4/4c/Courage_under_fire.jpg"
   },
   {
@@ -427,6 +469,7 @@
     "genero": ["Drama", "Crime"],
     "atores_principais": ["Samuel L. Jackson", "Matthew McConaughey", "Sandra Bullock"],
     "sinopse": "Um advogado defende um pai que matou os homens responsáveis pelo ataque brutal contra sua filha, em meio a fortes tensões raciais.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/3/3c/A_Time_to_Kill_poster.jpg"
   },
   {
@@ -437,6 +480,7 @@
     "genero": ["Drama", "Suspense"],
     "atores_principais": ["Susan Sarandon", "Tommy Lee Jones", "Brad Renfro"],
     "sinopse": "Um garoto se torna alvo da máfia e do FBI após descobrir informações confidenciais sobre um assassinato.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/5/5c/The_Client_poster.jpg"
   },
   {
@@ -447,6 +491,7 @@
     "genero": ["Crime", "Drama"],
     "atores_principais": ["Marlon Brando", "Al Pacino", "James Caan"],
     "sinopse": "A ascensão e consolidação da poderosa família mafiosa Corleone nos Estados Unidos, marcada por lealdade, traição e violência.",
+    "streaming": ["Netflix", "Amazon Prime", "Paramount+"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
   },
   {
@@ -457,6 +502,7 @@
     "genero": ["Drama", "Comédia"],
     "atores_principais": ["Robin Williams", "Monica Potter", "Philip Seymour Hoffman"],
     "sinopse": "Um estudante de medicina acredita que o humor e a empatia são essenciais para curar pacientes, desafiando os métodos tradicionais.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/4/48/Patch_Adams.jpg"
   },
   {
@@ -467,6 +513,7 @@
     "genero": ["Drama"],
     "atores_principais": ["Hilary Swank", "Patrick Dempsey", "Scott Glenn"],
     "sinopse": "Uma professora inspira seus alunos em risco a mudarem de vida através da escrita e da educação.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/2/27/Freedom_Writers_Poster.jpg"
   },
   {
@@ -477,6 +524,7 @@
     "genero": ["Fantasia", "Drama"],
     "atores_principais": ["Josh Hutcherson", "AnnaSophia Robb", "Zooey Deschanel"],
     "sinopse": "Dois jovens criam um mundo mágico imaginário para escapar das dificuldades da vida real.",
+    "streaming": ["Disney+", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/d/d5/Bridge_to_Terabithia_2007_film.jpg"
   },
   {
@@ -487,6 +535,7 @@
     "genero": ["Ação", "Crime"],
     "atores_principais": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     "sinopse": "Batman enfrenta o Coringa, um vilão caótico que ameaça mergulhar Gotham no caos.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg"
   },
   {
@@ -497,6 +546,7 @@
     "genero": ["Ação", "Comédia"],
     "atores_principais": ["Ryan Reynolds", "Morena Baccarin", "Ed Skrein"],
     "sinopse": "Um mercenário adquire poderes de regeneração e busca vingança com muito humor ácido.",
+    "streaming": ["Disney+", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/4/46/Deadpool_poster.jpg"
   },
   {
@@ -507,6 +557,7 @@
     "genero": ["Ação", "Comédia"],
     "atores_principais": ["Ryan Reynolds", "Josh Brolin", "Zazie Beetz"],
     "sinopse": "Deadpool forma uma equipe para proteger um jovem mutante de um soldado do futuro.",
+    "streaming": ["Disney+", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/c/cf/Deadpool_2_poster.jpg"
   },
   {
@@ -517,6 +568,7 @@
     "genero": ["Guerra", "Drama"],
     "atores_principais": ["Charlie Sheen", "Willem Dafoe", "Tom Berenger"],
     "sinopse": "Um jovem soldado enfrenta os horrores da Guerra do Vietnã e conflitos internos entre seus superiores.",
+    "streaming": ["Netflix", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/9/93/Platoon_poster.jpg"
   },
   {
@@ -527,6 +579,7 @@
     "genero": ["Fantasia", "Aventura"],
     "atores_principais": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
     "sinopse": "A jornada da Sociedade se divide enquanto a guerra pela Terra-média se intensifica.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/a/ad/Lord_of_the_Rings_-_The_Two_Towers.jpg"
   },
   {
@@ -537,6 +590,7 @@
     "genero": ["Fantasia", "Aventura"],
     "atores_principais": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
     "sinopse": "A batalha final pela Terra-média acontece enquanto Frodo se aproxima de destruir o Um Anel.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/9/9d/ReturnoftheKing.jpg"
   },
   {
@@ -547,6 +601,7 @@
     "genero": ["Fantasia", "Aventura"],
     "atores_principais": ["Martin Freeman", "Ian McKellen", "Richard Armitage"],
     "sinopse": "Bilbo Bolseiro embarca em uma aventura para ajudar anões a recuperar seu reino perdido.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/b/b3/The_Hobbit-_An_Unexpected_Journey.jpeg"
   },
   {
@@ -557,6 +612,7 @@
     "genero": ["Fantasia", "Aventura"],
     "atores_principais": ["Martin Freeman", "Ian McKellen", "Benedict Cumberbatch"],
     "sinopse": "A jornada continua enquanto o grupo se aproxima da Montanha Solitária e enfrenta o dragão Smaug.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Hobbit_-_The_Desolation_of_Smaug.jpeg"
   },
   {
@@ -567,6 +623,7 @@
     "genero": ["Fantasia", "Aventura"],
     "atores_principais": ["Martin Freeman", "Ian McKellen", "Richard Armitage"],
     "sinopse": "A batalha final define o destino da Terra-média após a derrota do dragão Smaug.",
+    "streaming": ["HBO Max", "Amazon Prime"],
     "capa": "https://upload.wikimedia.org/wikipedia/en/0/0d/The_Hobbit_-_The_Battle_of_the_Five_Armies.jpg"
   }
 ]
