@@ -1,0 +1,418 @@
+[
+  {
+    "titulo": "Exterminador do Futuro 1",
+    "ano": 1984,
+    "diretor": "James Cameron",
+    "atores_principais": ["Arnold Schwarzenegger", "Linda Hamilton", "Michael Biehn"],
+    "sinopse_curta": "Um androide é enviado do futuro para matar uma mulher cuja descendência será crucial para a resistência humana contra as máquinas.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Exterminador do Futuro 2",
+    "ano": 1991,
+    "diretor": "James Cameron",
+    "atores_principais": ["Arnold Schwarzenegger", "Linda Hamilton", "Edward Furlong"],
+    "sinopse_curta": "Um novo T-1000 é enviado para eliminar o jovem John Connor, mas um T-800 reprogramado é sua única chance de sobrevivência.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Predador 1",
+    "ano": 1987,
+    "diretor": "John McTiernan",
+    "atores_principais": ["Arnold Schwarzenegger", "Carl Weathers", "Jesse Ventura"],
+    "sinopse_curta": "Um esquadrão militar é caçado por uma criatura alienígena invisível na selva da América Central.",
+    "onde_assistir": "Netflix, Amazon Prime Video, Disney+"
+  },
+  {
+    "titulo": "Predador 2",
+    "ano": 1990,
+    "diretor": "Stephen Hopkins",
+    "atores_principais": ["Danny Glover", "Gary Busey", "Rubén Blades"],
+    "sinopse_curta": "Um alienígena predador caça criminosos nas ruas de Los Angeles durante um caótico período de guerra entre gangues.",
+    "onde_assistir": "Amazon Prime Video, HBO Max"
+  },
+  {
+    "titulo": "Rambo",
+    "ano": 1982,
+    "diretor": "Ted Kotcheff",
+    "atores_principais": ["Sylvester Stallone", "Richard Crenna", "Brian Dennehy"],
+    "sinopse_curta": "Um veterano de guerra traumatizado é perseguido por um xerife e deve usar suas habilidades de sobrevivência para se defender.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Reine Sobre Mim",
+    "ano": 2007,
+    "diretor": "Mike Binder",
+    "atores_principais": ["Adam Sandler", "Don Cheadle", "Liv Tyler"],
+    "sinopse_curta": "Um homem rico e arrogante reencontra um colega de infância que se tornou músico e formam uma amizade transformadora.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Sinais",
+    "ano": 2002,
+    "diretor": "M. Night Shyamalan",
+    "atores_principais": ["Mel Gibson", "Joaquin Phoenix", "Rory Culkin"],
+    "sinopse_curta": "Uma família se vê forçada a enfrentar invasores alienígenas que chegam à Terra com propósitos misteriosos.",
+    "onde_assistir": "Netflix, Amazon Prime Video, Disney+"
+  },
+  {
+    "titulo": "Do que as mulheres gostam",
+    "ano": 2000,
+    "diretor": "Nancy Meyers",
+    "atores_principais": ["Mel Gibson", "Helen Hunt", "Marcia Gay Harden"],
+    "sinopse_curta": "Um publicitário obtém a habilidade sobrenatural de ouvir os pensamentos das mulheres e descobre muito mais sobre si mesmo.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "A Vida de Brian",
+    "ano": 1979,
+    "diretor": "Terry Jones",
+    "atores_principais": ["Graham Chapman", "John Cleese", "Terry Gilliam"],
+    "sinopse_curta": "Uma comédia satírica sobre um homem confundido com o Messias que se vê envolvido em absurdas situações religiosas e políticas.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Cegos Surdos e Loucos",
+    "ano": 1975,
+    "diretor": "Ken Russell",
+    "atores_principais": ["Roger Daltrey", "Ann-Margret", "Oliver Reed"],
+    "sinopse_curta": "A história de Tommy, um menino que se torna surdo, cego e mudo após um trauma, mas descobre um dom extraordinário para tocar pinball.",
+    "onde_assistir": "Amazon Prime Video, Apple TV"
+  },
+  {
+    "titulo": "Ponte para Terabitia",
+    "ano": 2007,
+    "diretor": "Gabor Csupó",
+    "atores_principais": ["Josh Hutcherson", "AnnaSophia Robb", "David Patton"],
+    "sinopse_curta": "Dois amigos criam um reino mágico secreto na floresta onde podem escapar de seus problemas reais.",
+    "onde_assistir": "Disney+, Amazon Prime Video"
+  },
+  {
+    "titulo": "Batman - O Cavaleiro das Trevas",
+    "ano": 2008,
+    "diretor": "Christopher Nolan",
+    "atores_principais": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "sinopse_curta": "Batman enfrenta o Coringa, um criminoso psicopata que quer mergulhar Gotham no caos e testar os princípios do herói.",
+    "onde_assistir": "HBO Max, Amazon Prime Video"
+  },
+  {
+    "titulo": "Deadpool 1",
+    "ano": 2016,
+    "diretor": "Tim Miller",
+    "atores_principais": ["Ryan Reynolds", "Morena Baccarin", "Ed Skrein"],
+    "sinopse_curta": "Um mercenário desfigurado com poderes de regeneração procura vingança contra o homem que o transformou.",
+    "onde_assistir": "Disney+, Amazon Prime Video"
+  },
+  {
+    "titulo": "Deadpool 2",
+    "ano": 2018,
+    "diretor": "David Leitch",
+    "atores_principais": ["Ryan Reynolds", "Josh Brolin", "Morena Baccarin"],
+    "sinopse_curta": "Deadpool monta uma equipe para proteger um jovem mutante e enfrentar um soldado do futuro com objetivos sinistros.",
+    "onde_assistir": "Disney+, Amazon Prime Video"
+  },
+  {
+    "titulo": "Platoon",
+    "ano": 1986,
+    "diretor": "Oliver Stone",
+    "atores_principais": ["Tom Berenger", "Willem Dafoe", "Charlie Sheen"],
+    "sinopse_curta": "Um jovem soldado enfrenta os horrores da Guerra do Vietnã e os conflitos morais entre seus oficiais.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Patch Adams - O Amor É Contagioso",
+    "ano": 1998,
+    "diretor": "Tom Shadyac",
+    "atores_principais": ["Robin Williams", "Monica Potter", "Philip Seymour Hoffman"],
+    "sinopse_curta": "Um estudante de medicina revoluciona a prática médica ao humanizar o tratamento dos pacientes através do humor e empatia.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Escritores da Liberdade",
+    "ano": 2007,
+    "diretor": "Richard LaGravenese",
+    "atores_principais": ["Hilary Swank", "Scott Patrick Green", "Imelda Staunton"],
+    "sinopse_curta": "Uma professora dedicada usa a redação para transformar vidas de adolescentes em risco em uma escola de Los Angeles.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Curtindo a Vida Adoidado",
+    "ano": 1986,
+    "diretor": "John Hughes",
+    "atores_principais": ["Matthew Broderick", "Alan Ruck", "Mia Sara"],
+    "sinopse_curta": "Um adolescente aproveita um dia de folga da escola para viver aventuras inesquecíveis em Chicago.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Hardball",
+    "ano": 2001,
+    "diretor": "Brian Robbins",
+    "atores_principais": ["Keanu Reeves", "D.B. Sweeney", "Patrick Warburton"],
+    "sinopse_curta": "Um jogador de apostas é contratado para treinar um time de beisebol de meninos carentes e descobre a importância do compromisso.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Gladiador",
+    "ano": 2000,
+    "diretor": "Ridley Scott",
+    "atores_principais": ["Russell Crowe", "Joaquin Phoenix", "Lucilla Marcia"],
+    "sinopse_curta": "Um general romano traído é reduzido à escravidão e deve lutar como gladiador pela sua redenção e vingança.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "O Colecionador de Ossos",
+    "ano": 1999,
+    "diretor": "Phillip Noyce",
+    "atores_principais": ["Denzel Washington", "Angelina Jolie", "Queen Latifah"],
+    "sinopse_curta": "Um tetraplégico genial ajuda a polícia a resolver um caso de assassinatos em série enquanto investiga um crime do passado.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Quero Ser Grande",
+    "ano": 1988,
+    "diretor": "Penny Marshall",
+    "atores_principais": ["Tom Hanks", "Elizabeth Perkins", "Robert Loggia"],
+    "sinopse_curta": "Um menino faz um pedido mágico para se tornar adulto e enfrenta as realidades do mundo adulto de forma humorística.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Matrix",
+    "ano": 1999,
+    "diretor": "Wachowski Brothers",
+    "atores_principais": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+    "sinopse_curta": "Um hacker descobre que o mundo é uma simulação e se junta a rebeldes para lutar contra máquinas inteligentes.",
+    "onde_assistir": "HBO Max, Amazon Prime Video"
+  },
+  {
+    "titulo": "Os Intocáveis",
+    "ano": 1987,
+    "diretor": "Brian De Palma",
+    "atores_principais": ["Kevin Costner", "Sean Connery", "Robert De Niro"],
+    "sinopse_curta": "Um agente federal recrutá um grupo improvisado para derrotar Al Capone durante a Proibição em Chicago.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "O Senhor dos Anéis",
+    "ano": 2001,
+    "diretor": "Peter Jackson",
+    "atores_principais": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen"],
+    "sinopse_curta": "Um hobbit deve destruir um anel maligno em uma jornada épica através de terras fantásticas para salvar a Terra-média.",
+    "onde_assistir": "HBO Max, Amazon Prime Video"
+  },
+  {
+    "titulo": "Sobre Meninos e Lobos",
+    "ano": 2000,
+    "diretor": "Christopher Nolan",
+    "atores_principais": ["Guy Pearce", "Carrie-Anne Moss", "Joe Pantoliano"],
+    "sinopse_curta": "Um homem com perda de memória procura pelo criminoso que matou sua esposa, mas nada é como parece.",
+    "onde_assistir": "Amazon Prime Video, Netflix"
+  },
+  {
+    "titulo": "Um Amor para Recordar",
+    "ano": 2002,
+    "diretor": "Adam Shankman",
+    "atores_principais": ["Shane West", "Mandy Moore", "David Morse"],
+    "sinopse_curta": "Um jovem rebelde e uma menina certinha desenvolvem um romance profundo que é testado por circunstâncias trágicas.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Sleepers: A Vingança Adormecida",
+    "ano": 1996,
+    "diretor": "Barry Levinson",
+    "atores_principais": ["Kevin Spacey", "Robert De Niro", "Dustin Hoffman"],
+    "sinopse_curta": "Quatro amigos se reúnem anos depois para vingar abuso sofrido na infância através de um assassinato cuidadosamente planejado.",
+    "onde_assistir": "HBO Max, Amazon Prime Video"
+  },
+  {
+    "titulo": "Zodíaco",
+    "ano": 2007,
+    "diretor": "David Fincher",
+    "atores_principais": ["Jake Gyllenhaal", "Mark Ruffalo", "Robert Downey Jr."],
+    "sinopse_curta": "Um cartunista obcecado investiga o caso do Killer do Zodíaco enquanto os detetives perseguem o misterioso assassino.",
+    "onde_assistir": "Netflix, Amazon Prime Video, HBO Max"
+  },
+  {
+    "titulo": "Sem Vestígios",
+    "ano": 2002,
+    "diretor": "John Polson",
+    "atores_principais": ["Charlize Theron", "Stuart Townsend", "Joel Edgerton"],
+    "sinopse_curta": "Uma mulher desaparece misteriosamente e seu noivo se torna o suspeito enquanto trama paranóia e segredos emergem.",
+    "onde_assistir": "Amazon Prime Video, HBO Max"
+  },
+  {
+    "titulo": "Os Últimos Passos de um Homem",
+    "ano": 2002,
+    "diretor": "Martin Campbell",
+    "atores_principais": ["Sean Penn", "Tim Robbins", "Michael Bacon"],
+    "sinopse_curta": "Um ex-presidiário é perseguido por seus crimes passados enquanto tenta reconstruir sua vida após sair da prisão.",
+    "onde_assistir": "Amazon Prime Video, Netflix"
+  },
+  {
+    "titulo": "Roubando Vidas",
+    "ano": 2005,
+    "diretor": "Adrian Lyne",
+    "atores_principais": ["Pierce Brosnan", "Ryan Gosling", "Rosamund Pike"],
+    "sinopse_curta": "Um criminoso experiente recruta um jovem talentoso para executar golpes cada vez mais audaciosos.",
+    "onde_assistir": "Amazon Prime Video, Netflix"
+  },
+  {
+    "titulo": "Na Teia da Aranha",
+    "ano": 2002,
+    "diretor": "Sam Raimi",
+    "atores_principais": ["Tobey Maguire", "Kirsten Dunst", "Willem Dafoe"],
+    "sinopse_curta": "Um adolescente ganha poderes de aranha após ser picado e deve decidir usá-los com grande responsabilidade.",
+    "onde_assistir": "Netflix, Amazon Prime Video, Disney+"
+  },
+  {
+    "titulo": "A Outra História Americana",
+    "ano": 1993,
+    "diretor": "Philip Kaufman",
+    "atores_principais": ["Gary Oldman", "Courtney Love", "Edward Norton"],
+    "sinopse_curta": "A história real de Sid Vicious e Nancy Spungen, uma história de amor trágica envolvida na cena punk de Nova York.",
+    "onde_assistir": "Amazon Prime Video, HBO Max"
+  },
+  {
+    "titulo": "Cartas de Iwo Jima",
+    "ano": 2006,
+    "diretor": "Clint Eastwood",
+    "atores_principais": ["Ken Watanabe", "Kazuhiro Yamaji", "Hiroyuki Sanada"],
+    "sinopse_curta": "Retrata a perspectiva japonesa na Batalha de Iwo Jima, mostrando o lado humanitário dos soldados lutando pela sobrevivência.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Uma Mente Brilhante",
+    "ano": 2001,
+    "diretor": "Ron Howard",
+    "atores_principais": ["Russell Crowe", "Ed Harris", "Jennifer Connelly"],
+    "sinopse_curta": "A história verdadeira de um matemático brilhante que luta contra esquizofrenia enquanto faz descobertas revolucionárias.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Fim dos Tempos",
+    "ano": 1999,
+    "diretor": "Kevin Smith",
+    "atores_principais": ["Ben Affleck", "Matt Damon", "Alan Rickman"],
+    "sinopse_curta": "Dois anjos recrutam um homem comum para impedir o apocalipse em uma comédia religiosa e satírica absurda.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "A Vila",
+    "ano": 2004,
+    "diretor": "M. Night Shyamalan",
+    "atores_principais": ["James McAvoy", "Bryce Dallas Howard", "William Hurt"],
+    "sinopse_curta": "Uma comunidade isolada vive aterrorizada por criaturas no bosque, mas segredos perturbadores escondem a verdade.",
+    "onde_assistir": "Netflix, Amazon Prime Video, Disney+"
+  },
+  {
+    "titulo": "Gran Torino",
+    "ano": 2008,
+    "diretor": "Clint Eastwood",
+    "atores_principais": ["Clint Eastwood", "Bee Vang", "Ahney Her"],
+    "sinopse_curta": "Um veterano racista confronta suas crenças preconceituosas ao se aproximar da família vizinha de imigrantes.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Filhos do Paraíso",
+    "ano": 1997,
+    "diretor": "Majid Majidi",
+    "atores_principais": ["Mohammad Amir Naji", "Zahra Drakshan", "Abdolreza Akbari"],
+    "sinopse_curta": "Um menino cego e uma menina pobre desenvolvem uma amizade profunda enquanto lutam pelas dificuldades da vida.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "A Conquista da Honra",
+    "ano": 1992,
+    "diretor": "Frank Capra",
+    "atores_principais": ["Gary Cooper", "Teresa Wright", "Walter Brennan"],
+    "sinopse_curta": "Um soldado retorna para casa após a guerra e tenta reconstruir sua vida em meio aos desafios do pós-guerra.",
+    "onde_assistir": "Amazon Prime Video, Apple TV"
+  },
+  {
+    "titulo": "Menina de Ouro",
+    "ano": 2004,
+    "diretor": "Clint Eastwood",
+    "atores_principais": ["Clint Eastwood", "Hilary Swank", "Morgan Freeman"],
+    "sinopse_curta": "Um treinador de boxe recluso se conecta com uma jovem boxeadora determinada em uma história de amizade e redenção.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Perigo Real e Imediato",
+    "ano": 1994,
+    "diretor": "Phillip Noyce",
+    "atores_principais": ["Harrison Ford", "Sean Weathers", "Bonnie Snell"],
+    "sinopse_curta": "Um oficial da marinha fugitivo tenta provar sua inocência enquanto é perseguido por um investigador obstinado.",
+    "onde_assistir": "Amazon Prime Video, Netflix"
+  },
+  {
+    "titulo": "Caçada ao Outubro Vermelho",
+    "ano": 1990,
+    "diretor": "John McTiernan",
+    "atores_principais": ["Sean Connery", "Alec Baldwin", "Scott Glenn"],
+    "sinopse_curta": "Um submarino soviético renegado causa tensão internacional quando seu capitão planeja desertar para os EUA.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Jogos Patrióticos",
+    "ano": 1992,
+    "diretor": "Phillip Noyce",
+    "atores_principais": ["Harrison Ford", "Willem Dafoe", "Anne Archer"],
+    "sinopse_curta": "Um analista da CIA deve fugir quando é incriminado injustamente enquanto descobre corrupção no governo.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "A Soma de Todos os Medos",
+    "ano": 2002,
+    "diretor": "Phil Alden Robinson",
+    "atores_principais": ["Ben Affleck", "Morgan Freeman", "James Cromwell"],
+    "sinopse_curta": "Um analista da CIA descobre um complô terrorista envolvendo uma bomba nuclear que ameaça destruir o mundo.",
+    "onde_assistir": "Amazon Prime Video, Netflix"
+  },
+  {
+    "titulo": "Bom Dia, Vietnã",
+    "ano": 1987,
+    "diretor": "Barry Levinson",
+    "atores_principais": ["Robin Williams", "Forest Whitaker", "Tung Thanh Tran"],
+    "sinopse_curta": "Um locutor radiofônico irreverente traz leveza e contracultura durante a Guerra do Vietnã.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Atrás das Linhas Inimigas",
+    "ano": 2001,
+    "diretor": "John Moore",
+    "atores_principais": ["Owen Wilson", "Gene Hackman", "David Morse"],
+    "sinopse_curta": "Um piloto derrubado sobre a Bósnia deve se esquivar de forças inimigas enquanto tenta se comunicar com sua unidade.",
+    "onde_assistir": "Amazon Prime Video, Netflix"
+  },
+  {
+    "titulo": "Coragem Sob Fogo",
+    "ano": 1996,
+    "diretor": "Edward Zwick",
+    "atores_principais": ["Denzel Washington", "Meg Ryan", "Matt Damon"],
+    "sinopse_curta": "Um veterano investiga alegações de covardia contra uma oficial durante a Primeira Guerra do Golfo.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "Tempo de Matar",
+    "ano": 1996,
+    "diretor": "Joel Schumacher",
+    "atores_principais": ["Samuel L. Jackson", "Matthew McConaughey", "Sandra Bullock"],
+    "sinopse_curta": "Um pai enfrenta julgamento por matar o homem que violentou sua filha, desencadeando tensões raciais em uma cidade.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "O Cliente",
+    "ano": 1994,
+    "diretor": "Joel Schumacher",
+    "atores_principais": ["Susan Sarandon", "Tommy Lee Jones", "Brad Renfro"],
+    "sinopse_curta": "Uma menina contrata uma advogada para protegê-la quando sabe o paradeiro de um corpo de uma vítima de assassinato.",
+    "onde_assistir": "Netflix, Amazon Prime Video"
+  },
+  {
+    "titulo": "O Poderoso Chefão",
+    "ano": 1972,
+    "diretor": "Francis Ford Coppola",
+    "atores_principais": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "sinopse_curta": "A história épica de uma família de mafiosos que controla um império do crime através de poder, lealdade e violência.",
+    "onde_assistir": "Netflix, Amazon Prime Video, Paramount+"
+  }
+]
